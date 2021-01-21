@@ -1,33 +1,34 @@
 import React from "react"
-
+import Link from "./Link"
 
 
 const Header =()=>{
 
  return (
    <div className="text-decoration">
-       <a href="/">
+       <Link href="/">
            Home
-       </a>
-      <a href="/about">
+       </Link>
+
+      <Link href="/about">
           About Us
-      </a>
-      <a href="/careers">
+      </Link>
+
+      <Link href="/careers">
           Careers 
-      </a>
+      </Link>
 
-      <a href="/industries">
+      <Link href="/industries">
           Industries
-      </a>
+      </Link>
 
-      <a href="/whatwedo">
+      <Link href="/whatwedo">
           What We Do
-      </a>
-      <a href="/insights">
+      </Link>
+
+      <Link href="/insights">
           Insights 
-      </a>
-
-
+      </Link>
  </div>
  )
 
